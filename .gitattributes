@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+git clone https://github.com/Kevin/Kevin.github.io
+Kevin.github.io
+cd Kevin.github.io
+echo "Hello World" > index.html
+
+git add --all
+
+git commit -m "Initial commit"
+
+git push -u origin main
