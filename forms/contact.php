@@ -13,6 +13,6 @@ $message = str_replace("\n.", "\n..", $message);
 $email = $email.",pongenyengue48@gmail.com" ;
 
 // send email
-mail($email,"OurProfiles.net",$message, $header);
+mail($email,$subject,$message, $header);
 }
 ?> 
